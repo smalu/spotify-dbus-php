@@ -1,0 +1,18 @@
+{
+    "name": "smalu/spotify-dbus-php",
+    "description": "PHP wrapper for Spotify via DBus",
+    "authors": [
+        {
+            "name": "Mikołaj Smal",
+            "email": "ja@smalu.info"
+        }
+    ],
+    "require": {
+        "adambrett/shell-wrapper": "^0.8.0"
+    },
+	"autoload": {
+		"psr-4": {
+            "smalu\\SpotifyDBus\\": "src/"
+        }
+	}
+}
